@@ -1,0 +1,89 @@
+body{
+background-color:#081b29;
+
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transition: color 0.3s, transform 0.3s; 
+}
+
+.navbar a:hover {
+    color: #00bfff;         
+    transform: translateY(-3px) scale(1.08); 
+}
+
+
+img{
+float: right;
+clip-path: circle(50%);
+width: 400px;
+height: 400px;
+}
+
+
+
+.home{
+    padding: 0 20px;
+    display: flex;
+    font-family: poppins;
+    font-size: 20px;
+    color:white;
+    margin-top: 250px;
+}
+
+.homecontent{
+    max-width: 600px;
+}
+
+.homecontent h1,
+.homecontent h2,
+.homecontent p {
+  
+    display: block;
+    margin: 0 0 12px 0; 
+    text-align: left;
+}
+
+.homecontent h1{
+font-size: 50px;
+font-weight: 400;
+font-family: ;
+
+}
+
